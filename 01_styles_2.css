@@ -1,0 +1,311 @@
+body{
+    margin: 0;
+    font-family: monospace;
+    font-size: 15px;
+    background-color: black;
+}
+#header{
+    background-color: black;
+    background-image: url("background_3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 20px;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    margin-bottom: 20px;
+    height: 100vh;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#nav {
+    position: absolute;
+    top: 10px; 
+    right: 100px;
+    display: flex;
+    gap: 10px;
+}
+#header button{
+    margin: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+    background: none;
+    color: white;
+    font-size: large;
+}
+#header button:hover{
+    color: red;
+}
+#mani{
+    display: flex;
+    position: absolute;
+    left: 170px;
+    margin-top: 0;
+    top: 1px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#M{
+    color: rgb(241, 11, 11);
+}
+#headline{
+    position: absolute;
+    top: 260px;
+    left: 170px;
+}
+#headline h2, #headline h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#headline h2{
+    font-weight: 400;
+}
+#manibhaskar{
+    color:  rgb(241, 11, 11);
+}
+p, li, h1, h3, a {
+    color: white;
+}
+#about_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#about_section img{
+    border-radius: 10px;
+}
+h1{
+    font-size: 50px;
+}
+#about_section_details {
+    margin-top: -100px;
+    position: relative;
+}
+#about_section_details h1{
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+#about_section_details p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    font-weight: 500;
+    text-align: center;
+}
+#skills_section h3{
+    font-size: 25px;
+    font-weight: 700;
+} 
+#skills_section {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+#skills_section img{
+    height: 100px;
+    width: 100px;
+    margin-bottom: -15px;
+}
+#skills_section #frontend, #skills_section #backend{
+    display: flex;
+    gap: 50px;
+}
+#skills_section h1{
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+#skills_section p{
+    font-family:  sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+main{
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+}
+ol li{
+    font-size: 20px;
+    list-style: none;
+}
+#about:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+#skills:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+#projects:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+} 
+#contact:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+#projects_section h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+#projects_section img, video {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.3s ease;
+    margin-bottom: 50px;
+}
+.visible_projects{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+#hidden-projects {
+    display: none;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    transition: all 0.5s ease-in-out, transform 0.5s;
+}
+.show-more-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    padding: 15px 30px 15px 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.show-more-btn:hover{
+    transform: translateY(-10px);
+}
+video {
+    opacity: 0; 
+}
+#projects_section{
+    height: auto;
+    justify-content: space-evenly;
+}
+#projects_section h3{
+    color: white;
+}
+.projects_section_container{
+    justify-content: space-evenly;
+}
+.link{
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    background: none;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    margin-left: -5px;
+    transition: transform 0.5s ease-in-out;
+    color: red;
+}
+
+button:hover{
+    cursor: pointer;
+}
+.links{ 
+    display: flex;
+    color: white;
+    text-decoration: none;
+    gap: 25px;
+    justify-content: center;
+    padding: 20px;
+}
+#contact_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin: auto; 
+}
+#contact_section h1{
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+#contact_section p{
+    font-size: 20px;
+}
+.my_details{
+    margin-top: -100px
+}
+.form {
+    max-width: 50%;
+    margin-top: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: white;
+    background-color: #240b0b00;
+    font-size: 20px;
+}
+.submit {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    padding: 15px 30px 15px 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.submit_container{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    height:125px;
+    background-color: rgba(209, 193, 193, 0.137);
+    color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

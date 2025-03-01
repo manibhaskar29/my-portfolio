@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="04_dup_styles.css">
+</head>
+<body>
+    <h2 id="greeting">Welcome! <span id="typedName"></span></h2>
+
+    <script>
+        const userName = prompt("What's your name?");
+        let i = 0;
+        function effect() {
+            if (i < userName.length) {
+                document.getElementById('typedName').innerText += userName.charAt(i);
+                i++;
+                setTimeout(effect, 150);
+            }
+        }
+
+        window.onload = effect;
+    </script>
+
+    <header>
+        <div>
+            <h1>Welcome to My Portfolio</h1>
+            <a href="#about_section">
+                <button class="button" id="about">About</button>
+            </a>
+            <a href="#skills_section">
+                <button class="button" id="skills">Skills</button>
+            </a>
+            <a href="#projects_section">
+                <button class="button" id="projects">Projects</button>
+            </a>
+            <a href="#contact_section">
+                <button class="button" id="contact">Contact</button>
+            </a>
+        </div>
+    </header>
+    <main>
+        <section id="about_section">
+            <h1>Kenguva Mani bhaskar</h1>
+            <img src="My photo.jpg" height="200px" width="150px">
+            <div>
+                <p>I am a passionate web developper with a focus on front-end technologies.</p>
+                <p>I am currently studying B.Tech in <em>RGUKT Srikakulam</em></p>
+                <p>You can <strong>click here </strong>to continue what I learnt in HTML CSS JS.</p>
+            </div>
+        </section>
+        <section id="skills_section">
+
+           <h1>My Skills</h1>
+            <ol>
+                <li>Python Basics</li>
+                <li>HTML Basics</li>
+                <li>CSS Basics</li>
+                <li>JavaScript Basics</li>
+            </ol>
+        </section>
+        <section id="projects_section"> 
+            <h1>My Projects</h1>
+            <div id="first_part">
+            <div class="container" onmouseover="playVideo(portfolio)" onmouseout="pauseVideo(portfolio)">
+                <img src="10_portfolio.png">
+                <video id="portfolio" src="11_portfolio.mp4" muted loop></video>
+            </div>
+            <h3>Portfolio Website</h3>
+            <a href="">
+                <button class="link">Click here</button>
+            </a>
+
+            <div class="container">
+                <img src="05_website_1.png" class="image">   
+            </div>
+            <h3>Website 1</h3>
+            <a href="">
+                <button class="link">Click here</button>
+            </a>
+
+            <div class="container">
+                <img src="06_website_2.png" class="image">             
+            </div>
+            <h3>Website 2<h3>
+            <a href="">
+                <button class="link">Click here</button>
+            </a>
+            </div>
+
+            <div id="second_part">
+            <div class="container">
+                <img src="07website_3.png" class="image">    
+            </div>
+            <h3>Website 3<h3>
+            <a href="">
+                <button class="link">Click here</button>
+            </a>
+
+            <div class="container" onmouseover="playVideo(website_4)" onmouseout="pauseVideo(website_4)">
+                <img src="08website_4.png">
+                <video id="website_4" src="12_website_4.mp4" muted loop></video>
+            </div>
+            <h3>Website 4</h3>
+            <a href="">
+                <button class="link">Click here</button>
+            </a>
+    
+            <div class="container" onmouseover="playVideo(travel_website)" onmouseout="pauseVideo(travel_website)">
+                <img src="09travel_website.png">
+                <video id="travel_website" src="13_Travel_website.mp4" muted loop></video>
+            </div>
+            <h3>Travel Website</h3>
+            <a href="">
+                <button class="link">Click here</button>
+            </a>
+
+            </div>
+
+            <script>
+                function playVideo(video) {
+                    video.style.opacity = 1; 
+                    video.play(); 
+                }
+                function pauseVideo(video) {
+                    video.style.opacity = 0; 
+                    video.pause(); 
+                    video.currentTime = 0; 
+                }
+            </script>
+        </div>
+
+
+        </section>
+        <section id="contact_section">
+            <h1>Contact me</h1>
+            <p>Feel free to get in touch with me using the form below</p>
+            <form action="" id="form">
+                <div>
+                    <label for="name">Name</label>
+                    <input id="name" type="text">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input id="email" type="email">
+                </div>
+                <div>
+                    <b>Choose your gender:</b>
+                    <label for="male">Male</label>
+                    <input type="radio" id="male">
+                    <label for="female">Female</label>
+                    <input type="radio" id="female">
+                </div>
+                <div>
+                    <b>Select your interests: </b>
+                    <label for="coding">Coding</label>
+                    <input type="checkbox" id="coding">
+                    <label for="coding">Coding</label>
+                    <input type="checkbox" id="coding">
+                </div>
+                <div>
+                    <label for="bio">Bio(upto 200 characters): </label>        
+                    <input id="bio" type="text">
+                </div>
+                <button type="submit" class="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <a href="">
+        <button class="fixedbutton">Top</button>
+    </a>
+    <footer>
+        <p>@ 2025 My Portfolio</p>
+    </footer>
+</body>
+</html>

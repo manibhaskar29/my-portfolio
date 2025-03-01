@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="01_styles_2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   
+    <header id="header">
+       <div id="mani">
+            <h1><span id="M">M</span>ani.</h1>
+        </div>
+        <div id="headline">
+            <h2>Web Developer</h2>
+            <h1>Hi, I'm <span id="manibhaskar">Mani bhaskar</span><br>From Srikakulam</h1>
+        </div>
+        <div id="nav">
+            <a href="#about_section">
+                <button class="button" id="about">About</button>
+            </a>
+            <a href="#skills_section">
+                <button class="button" id="skills">Skills</button>
+            </a>
+            <a href="#projects_section">
+                <button class="button" id="projects">Projects</button>
+            </a>
+            <a href="#contact_section">
+                <button class="button" id="contact">Contact</button>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about_section">
+            <div id="about_section_img">
+                <img src="about_section_img.jpg" height="500px" width="350px">
+            </div>
+            <div id="about_section_details">
+                <h1>About Me</h1>
+                <p>
+                    Hi, I’m Mani Bhaskar, a first-year BTech Computer Science and<br>
+                    Engineering student at RGUKT, Srikakulam. I’m passionate about<br>
+                    technology and love exploring the world of web development and<br>
+                    programming. Currently, I’m diving deep into Python and honing my<br>
+                    skills in building dynamic and user-friendly websites.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills_section">
+            <h1>My Skills</h1>
+            <h3>Front-end:</h3>
+            <div id="frontend">
+                <div id="html">
+                    <img src="html-5.jpg">
+                    <p>HTML </p>
+                </div>
+                <div id="css">
+                    <img src="css.png">
+                    <p>CSS </p>
+                </div>
+                <div id="js">
+                    <img src="js.png">
+                    <p>JavaScript </p>
+                </div>
+            </div>
+            <h3>Back-end:</h3>
+            <div id="backend">
+                <div id="python">
+                <img src="python.jpg">
+                <p>Python </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects_section"> 
+            <h1>My Projects</h1>
+            <div class="projects_section_container">
+                <div class="visible_projects">
+                    <div class="container" onmouseover="playVideo(website_3)" onmouseout="pauseVideo(website_3)">
+                        <img src="08website_4.png">
+                        <video id="website_3" src="12_website_4.mp4" muted loop></video>
+                        <h3>Website 3</h3>
+                    </div>
+                    <div class="container" onmouseover="playVideo(Food_Website)" onmouseout="pauseVideo(Food_Website )">
+                        <img src="food_website.png">
+                        <video id="Food_Website" src="Food website.mp4" muted loop></video>
+                        <h3>Food Website</h3>
+                    </div>
+                    <div class="container" onmouseover="playVideo(travel_website)" onmouseout="pauseVideo(travel_website)">
+                        <img src="09travel_website.png">
+                        <video id="travel_website" src="13_Travel_website.mp4"></video>
+                        <h3>Travel Website</h3>
+                    </div>
+                </div>
+                
+                <div id="hidden-projects">
+                    <div class="container">
+                        <img src="07website_3.png">
+                        <h3>Website 2</h3>
+                    </div>
+                    <div class="container" onmouseover="playVideo(portfolio_website)" onmouseout="pauseVideo(portfolio_website)">
+                        <img src="10_portfolio.png">
+                        <video id="portfolio_website" src="11_portfolio.mp4"></video>
+                        <h3>Portfolio Website</h3>
+                    </div>                    
+                    <div class="container">
+                        <img src="06_website_2.png">
+                        <h3>Website 1</h3>
+                    </div>
+                </div>   
+            </div>
+            
+            <button class="show-more-btn" id="showMoreBtn">Show More</button>
+        
+            <script>
+                let showMoreBtn = document.getElementById("showMoreBtn")
+                let hiddenProjects = document.getElementById("hidden-projects")
+                showMoreBtn.addEventListener("click",function(){
+                    if (hiddenProjects.style.display === "none"){
+                        hiddenProjects.style.display = "flex";
+                        showMoreBtn.innerText = "Show Less";
+                    }
+                    else {
+                        hiddenProjects.style.display = "none";
+                        showMoreBtn.innerText = "Show More";
+                    }
+                });
+                
+                function playVideo(video) {
+                    video.style.opacity = 1; 
+                    video.play(); 
+                }
+                function pauseVideo(video) {
+                    video.style.opacity = 0; 
+                    video.pause(); 
+                    video.currentTime = 0; 
+                }
+            </script>
+        </section>
+
+
+        <section id="contact_section">
+            <div class="my_details">
+                <h1>Contact me</h1>
+                <p><i class="fa-solid fa-envelope"></i> kenguva.manibhaskar@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 9347377267</p>
+                <div class="links">
+                    <a href="https://www.facebook.com/manibhaskar29" target="_blank">
+                        <i class="fa-brands fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/kenguva-mani-bhaskar-914375325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                        <i class="fa-brands fa-linkedin fa-2x"></i>
+                    </a>
+                    <a href="https://www.instagram.com/manibhaskar29" target="_blank">
+                        <i class="fa-brands fa-instagram fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+             
+            <div class="form">
+                <form>
+                    <input type="text" id="name" placeholder="Your name">
+                    <input type="text" id="email" placeholder="Your email">
+                    <textarea rows="10" cols="70" placeholder="Your message"></textarea>
+                </form>
+                <div class="submit_container">
+                    <button class="submit">Submit</button>
+                </div>
+            </div>
+ 
+        </section>
+    </main>
+    <footer>
+        <p>@ 2025 My Portfolio</p>
+    </footer>
+</body>
+</html>

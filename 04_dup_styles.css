@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    font-family: monospace;
+    font-size: 15px;
+    background-color: #f0f8ff;
+}
+header{
+    background-color: #2196f3;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header h1{
+    color:white;
+}
+h1{
+    color: #2196f3;
+    font-size: 50px;
+}
+.button{
+    margin: 15px;
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+.button:hover{
+    color:white;
+    background-color: darkblue; 
+}
+section{
+    height: 100vh;
+    border: 1px solid grey;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+}
+main{
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+}
+section div p{
+    text-align: left;
+}
+ol li{
+    font-size: 20px;
+}
+form div{
+    margin: 5px 0 0 5px;
+}
+.submit{
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #2196f3;
+    color:white;
+}
+.submit:hover{
+    background-color: #1178cd;
+}
+input{
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    height: 25px;
+}
+.fixedbutton{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 70px;
+    width: 70px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    background-color: #2196f3;
+}
+footer{
+    height:125px;
+    background-color: black;
+    color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#greeting{
+    text-align: center;
+}
+#about:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+#skills:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+#projects:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+} 
+#contact:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+#projects h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.container {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+#projects_section img, video {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.3s ease;
+    margin-bottom: 50px;
+}
+
+video {
+    opacity: 0; /* Initially hide the video */
+}
+#projects_section{
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border: 1px solid gray;
+}
+.link{
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    background: none;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    margin-left: -5px;
+    transition: transform 0.5s ease-in-out;
+}
+button:hover{
+    cursor: pointer;
+    background-color: gray;
+    color: red;
+}
