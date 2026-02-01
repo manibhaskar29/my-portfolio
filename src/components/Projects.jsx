@@ -26,7 +26,7 @@ const projects = [
         title: 'WasteZero',
         description: 'Waste management platform to track and optimize waste collection with dashboards and backend APIs.',
         image: '/images/waste-zero.png',
-        tags: ['React', 'Express', 'MySQL', 'REST API'],
+        tags: ['React', 'Express', 'MongoDB', 'REST API'],
         gradient: 'from-green-500 to-emerald-500',
         liveUrl: 'https://waste-zero-fawn.vercel.app/',
         githubUrl: 'https://github.com/manibhaskar29/WasteZero'
