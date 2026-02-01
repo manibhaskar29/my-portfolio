@@ -5,6 +5,15 @@ import { ExternalLink, Github } from 'lucide-react';
 // Real projects from Replit portfolio
 const projects = [
     {
+        title: 'One-Stop Career Advisor',
+        description: 'AI-powered career guidance platform providing personalized roadmaps and resources based on user assessment.',
+        image: '/images/one-stop-career-guide.png',
+        tags: ['React', 'AI Integration', 'Career Development'],
+        gradient: 'from-indigo-500 to-violet-500',
+        liveUrl: 'https://one-stop-career-advisor.vercel.app/',
+        githubUrl: 'https://github.com/manibhaskar29/One-Stop-Career-Advisor'
+    },
+    {
         title: 'LinkedIn Post Generator',
         description: 'AI-powered tool that generates professional LinkedIn posts automatically with modern UI and API integration.',
         image: '/images/linkedin-post-generator.png',
