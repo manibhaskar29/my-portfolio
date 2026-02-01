@@ -6,45 +6,45 @@ import { ExternalLink, Github } from 'lucide-react';
 const projects = [
     {
         title: 'One-Stop Career Advisor',
-        description: 'AI-powered career guidance platform providing personalized roadmaps and resources based on user assessment.',
+        description: 'Comprehensive MERN stack platform for personalized career guidance after Class 10/12 using AI-powered assessment.',
         image: '/images/one-stop-career-guide.png',
-        tags: ['React', 'AI Integration', 'Career Development'],
+        tags: ['MERN Stack', 'AI Integration', 'Career Guidance', 'Tailwind CSS'],
         gradient: 'from-indigo-500 to-violet-500',
         liveUrl: 'https://one-stop-career-advisor.vercel.app/',
         githubUrl: 'https://github.com/manibhaskar29/One-Stop-Career-Advisor'
     },
     {
         title: 'LinkedIn Post Generator',
-        description: 'AI-powered tool that generates professional LinkedIn posts automatically with modern UI and API integration.',
+        description: 'FastAPI-based tool with Groq AI integration for generating professional LinkedIn posts, featuring scheduling and analytics.',
         image: '/images/linkedin-post-generator.png',
-        tags: ['React', 'Node.js', 'AI APIs', 'FastAPI'],
+        tags: ['FastAPI', 'Groq AI', 'MongoDB', 'React'],
         gradient: 'from-blue-500 to-cyan-500',
         liveUrl: 'https://linked-in-post-generator-k-manibhaskars-projects.vercel.app',
         githubUrl: 'https://github.com/manibhaskar29/LinkedIn-Post-Generator'
     },
     {
         title: 'WasteZero',
-        description: 'Waste management platform to track and optimize waste collection with dashboards and backend APIs.',
+        description: 'Eco-friendly waste management platform connecting volunteers, NGOs, and authorities with real-time tracking and role-based dashboards.',
         image: '/images/waste-zero.png',
-        tags: ['React', 'Express', 'MongoDB', 'REST API'],
+        tags: ['MERN Stack', 'Socket.io', 'Google Maps API', 'Tailwind CSS'],
         gradient: 'from-green-500 to-emerald-500',
         liveUrl: 'https://waste-zero-fawn.vercel.app/',
         githubUrl: 'https://github.com/manibhaskar29/WasteZero'
     },
     {
         title: 'College Event Management System',
-        description: 'Full stack system for managing college events, registrations, and admin controls.',
+        description: 'Full-stack event management system with role-based access, real-time dashboards, and secure JWT authentication.',
         image: '/images/college-event-management-system.png',
-        tags: ['React', 'Node.js', 'MySQL', 'Admin Dashboard'],
+        tags: ['React', 'Node.js', 'MySQL', 'Material UI'],
         gradient: 'from-purple-500 to-pink-500',
         liveUrl: 'https://college-event-management-system-70klnb8zc.vercel.app/',
         githubUrl: 'https://github.com/manibhaskar29/college-event-management-system'
     },
     {
         title: 'YouTube Downloader',
-        description: 'Python-based tool to download YouTube videos using automation and CLI interface.',
+        description: 'Modern web application for downloading YouTube videos and playlists with a Flask backend and responsive frontend.',
         image: '/images/yt-downloader.png',
-        tags: ['Python', 'Automation', 'CLI'],
+        tags: ['Python', 'Flask', 'yt-dlp', 'JavaScript'],
         gradient: 'from-red-500 to-orange-500',
         liveUrl: 'https://manibhaskar29.github.io/yt-downloader/',
         githubUrl: 'https://github.com/manibhaskar29/yt-downloader'
