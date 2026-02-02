@@ -59,7 +59,7 @@ export default function About() {
                         >
                             <div className="w-full h-full bg-slate-900 rounded-xl flex items-center justify-center overflow-hidden">
                                 <img
-                                    src="/images/profile.png"
+                                    src="/images/my-profile.png"
                                     alt="Mani Bhaskar"
                                     className="w-full h-full object-cover"
                                 />
