@@ -2,18 +2,18 @@
 
 A modern, responsive, and animated portfolio website built with **React**, **Vite**, and **Tailwind CSS**. This project showcases my skills, experience, and projects with a clean and professional design.
 
-![Portfolio Preview](https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80)
+![Portfolio Preview](https://drive.google.com/file/d/1oxq6SMk7FpxBJZKFNGCvfX5nIATmhRbG/view?usp=sharing)
 
 ## 🚀 Features
 
-- **⚡ Blazing Fast**: Powered by Vite for instant server start and HMR.
-- **🎨 Modern UI**: Styled with Tailwind CSS for a sleek, responsive design.
-- **✨ Smooth Animations**: Powered by Framer Motion for scroll-based and interactive animations.
-- **📱 Fully Responsive**: Looks great on all devices, from mobile to desktop.
-- **📧 Working Contact Form**: Integrated verified mailto link for direct communication.
-- **🛠️ Modular Architecture**: Clean file structure with reusable components.
+- ** Blazing Fast**: Powered by Vite for instant server start and HMR.
+- ** Modern UI**: Styled with Tailwind CSS for a sleek, responsive design.
+- ** Smooth Animations**: Powered by Framer Motion for scroll-based and interactive animations.
+- ** Fully Responsive**: Looks great on all devices, from mobile to desktop.
+- ** Working Contact Form**: Integrated verified mailto link for direct communication.
+- ** Modular Architecture**: Clean file structure with reusable components.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework**: [React](https://react.dev/) (v18)
 - **Build Tool**: [Vite](https://vitejs.dev/)
@@ -40,7 +40,7 @@ src/
 └── index.css         # Tailwind directives and global styles
 ```
 
-## 🏃‍♂️ Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -67,7 +67,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed (version 16 or highe
 4.  **Open your browser:**
     Navigate to `http://localhost:5173/` to view the app.
 
-## 🚀 Deployment
+## Deployment
 
 This project is optimized for deployment on platforms like Vercel, Netlify, or customized hosting.
 
@@ -115,7 +115,7 @@ To preview the production build locally:
 npm run preview
 ```
 
-## 📝 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
