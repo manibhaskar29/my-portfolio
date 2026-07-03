@@ -2,7 +2,7 @@
 
 A modern, responsive, and animated portfolio website built with **React**, **Vite**, and **Tailwind CSS**. This project showcases my skills, experience, and projects with a clean and professional design.
 
-![Portfolio Preview](https://drive.google.com/file/d/1oxq6SMk7FpxBJZKFNGCvfX5nIATmhRbG/view?usp=sharing)
+![Portfolio Preview](<img width="1898" height="880" alt="Screenshot 2026-07-03 204737" src="https://github.com/user-attachments/assets/38fc65ac-8676-4404-8873-be2978bda10d" />)
 
 ## 🚀 Features
 
